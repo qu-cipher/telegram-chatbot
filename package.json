@@ -1,0 +1,17 @@
+{
+  "name": "qc-ai-bot",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "This is a telegram bot that is linked to deepseek ai model using github api key",
+  "main": "app.ts",
+  "scripts": {
+    "test": "tsx app.ts"
+  },
+  "author": "QuantumCipher",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.48.1",
+    "supabase": "^2.12.1",
+    "tsx": "^4.19.2"
+  }
+}
