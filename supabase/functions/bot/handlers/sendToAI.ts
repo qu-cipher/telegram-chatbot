@@ -15,5 +15,7 @@ export async function sendToAi(ctx: Context, text: string) {
         return;
     }
 
-    await ctx.reply(response.msg);
+    await ctx.reply(response.msg, {
+        parse_mode: "Markdown"
+    });
 }
