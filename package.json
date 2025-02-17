@@ -5,7 +5,8 @@
   "description": "This is a telegram bot that is linked to deepseek ai model using github api key",
   "main": "app.ts",
   "scripts": {
-    "test": "tsx app.ts"
+    "test": "tsx app.ts",
+    "deploy":"supabase functions deploy bot --no-verify-jwt"
   },
   "author": "QuantumCipher",
   "license": "MIT",
